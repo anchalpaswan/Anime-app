@@ -1,0 +1,31 @@
+* {
+    border: 1px solid red;
+}
+header {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.796);
+    color: white;
+}
+.container{
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem ;
+}
+
+.card{
+    cursor: pointer;
+    width: 20%;
+    
+}
+
+.anime-content{
+    position: absolute;
+    z-index: -1;
+    margin: auto auto;
+}
